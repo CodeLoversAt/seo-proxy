@@ -70,6 +70,10 @@ according response. For now it just keeps them in memory, but adapters to cachin
 	}
     ```
 
+## Run as a service
+
+You might want to run that proxy as a service on startup. We suggest using [node-startup](https://github.com/chovy/node-startup) or [forever](https://github.com/foreverjs/forever) for that purpose.
+
 ## License
 
 [MIT](LICENSE)
