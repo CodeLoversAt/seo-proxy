@@ -1,4 +1,4 @@
 'use strict';
-var proxy = require('./proxy');
+var proxy = require('./src/proxy');
 
-proxy.start(require('./config.json'), require('./cache'));
+proxy.start(require('./config.json'), require('./src/memoryCache'));

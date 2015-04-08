@@ -11,8 +11,8 @@ Since the webserver itself can hardly determine whether a particular URI
 is valid or not if the respone is created from a dynamic backend, you cannot
 solve this problem in the Apache/nginx config directly.
 
-That's where this seo-proxy comes in handy: it's it will take incoming requests
-and forward them to the configured target. If the target response with a 200
+That's where this seo-proxy comes in handy: it will take incoming requests
+and forward them to the configured target. If the target responses with a 200
 status, then the proxy will redirect the client to that target URL.
 If it's a 404 response, the proxy will serve that response directly.
 
