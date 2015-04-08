@@ -27,21 +27,27 @@ according response. For now it just keeps them in memory, but adapters to cachin
     git clone https://github.com/CodeLoversAt/seo-proxy.git
     cd seo-proxy
     ```
+    
+2. Install dependencies
 
-2. Create a new `config.json` from the template `config.dist.json` and update the file to match your setup.
+    ```shell
+    npm install
+    ```
+
+3. Create a new `config.json` from the template `config.dist.json` and update the file to match your setup.
 
     ```shell
     cp config.dist.json config.json
     ```
     
-3. Start the proxy
+4. Start the proxy
 
    ```shell
    node index.js
    > Proxy started on http://127.0.0.1:8888
    ```
    
-4. Setup your webserver to forward all http requests to your proxy instance. Here's a sample nginx server configuration:
+5. Setup your webserver to forward all http requests to your proxy instance. Here's a sample nginx server configuration:
 
     ```shell
     upstream proxy {
