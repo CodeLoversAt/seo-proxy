@@ -62,6 +62,7 @@ according response. For now it just keeps them in memory, but adapters to cachin
 	            proxy_pass http://proxy;
 	        }
 	}
+    ```
 
 ## License
 
