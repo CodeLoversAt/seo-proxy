@@ -1,0 +1,14 @@
+{
+  "name": "proxy",
+  "version": "0.0.1",
+  "description": "Node.js proxy that can be used to avoid 301=>404 \"errors\" in your setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Holzmann <d@velopment.at> (https://codelovers.at)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
